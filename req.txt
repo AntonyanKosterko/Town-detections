@@ -1,0 +1,14 @@
+torch
+torchvision
+fastapi
+uvicorn
+Pillow
+matplotlib
+numpy
+cityscapesscripts
+torchvision
+prometheus-fastapi
+prometheus-client
+gunicorn
+boto3
+optuna
