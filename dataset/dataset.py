@@ -6,8 +6,8 @@ import matplotlib.patches as patches
 
 def visualize_cityscapes_dataset(dataset_root):
     # Путь к папкам с изображениями и метками
-    images_path = os.path.join(dataset_root, 'leftImg8bit_trainvaltest/leftImg8bit/train')  # Папка с изображениями
-    labels_path = os.path.join(dataset_root, 'gtBbox_cityPersons_trainval/gtBboxCityPersons/train')  # Папка с метками
+    images_path = os.path.join(dataset_root, 'data/leftImg8bit_trainvaltest/leftImg8bit/train')  # Папка с изображениями
+    labels_path = os.path.join(dataset_root, 'data/gtBbox_cityPersons_trainval/gtBboxCityPersons/train')  # Папка с метками
 
     # Перебор городов в папке с изображениями
     for city in os.listdir(images_path):
