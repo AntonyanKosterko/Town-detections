@@ -2,7 +2,7 @@ import os
 import json
 
 # Укажите путь к папке с аннотациями
-annotations_dir = r"E:\DataScience\Работа\Проекты\PET\Projects\Town-detections\data\gtBbox_cityPersons_trainval\gtBboxCityPersons\train"
+annotations_dir = "Town-detections\data\gtBbox_cityPersons_trainval\gtBboxCityPersons\train"
 
 # Множество для хранения уникальных классов
 unique_classes = set()

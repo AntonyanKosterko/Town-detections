@@ -3,8 +3,8 @@ import json
 from tqdm import tqdm
 
 # Определяем пути
-input_dir = r"E:\DataScience\Работа\Проекты\PET\Projects\Town-detections\data\gtBbox_cityPersons_trainval\gtBboxCityPersons\train"  # Папка train, содержащая папки городов
-output_dir = r"E:\DataScience\Работа\Проекты\PET\Projects\Town-detections\data\yolo_labels"
+input_dir = "dop/Town-detections/data/gtBbox_cityPersons_trainval/gtBboxCityPersons/val"  # Папка train, содержащая папки городов
+output_dir = "dop/Town-detections/data/yolo_val_labels"
 os.makedirs(output_dir, exist_ok=True)
 
 # Карта классов
